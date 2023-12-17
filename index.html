@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi Moments Cafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a href="#" id="brand-logo">Mochi Moments Cafe</a>
+        </div>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-list"><a class="nav-links" href="./index">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="./aboutUs">Aboutus</a></li>
+                <li class="nav-list"><a class="nav-links" href="./menu">Menu</a></li>
+                <li class="nav-list"><a class="nav-links" href="./contact">Contact</a></li>
+                <li class="nav-list"><a class="nav-links" href="./Cart">Cart</a></li>
+                <li class="nav-list"><a class="nav-links" href="./services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Indulge in Happiness</h1>
+        </div>
+    </div>
+
+        
+        <section class="info">
+            <img src="img/story-pic.jpg" alt="Portrait Image" class="portrait-image">
+            <div class="our-story-content">
+                <h2>Our Story</h2>
+                <p>Nestled in the heart of Karachi, Mochi Moments Cafe is a haven for those seeking a delightful escape into the world of delectable flavors and warm hospitality. Our journey began with a shared love for creating moments of joy through exceptional culinary experiences.</p>
+            <p>Each visit to Mochi Moments is an exploration of handcrafted treats, inspired by global flavors and made with locally sourced ingredients. From our signature mochi desserts to artisanal coffees, every item on our menu is a celebration of quality and creativity.</p>
+            <p>Our commitment goes beyond crafting delicious treats; it extends to providing a cozy and inviting space where friends gather, families celebrate, and individuals find solace in the simple pleasure of a perfect bite. We invite you to join us on this journey of flavors, where every moment becomes a Mochi Moment.</p>
+            </div>
+        </section>
+
+
+        <section class="our-interior-section">
+            <div class="our-interior-content">
+                <h2>Our Interior</h2>
+                <p>Step into Mochi Moments Cafe and experience the charm of our thoughtfully designed interior. Our space is a fusion of modern aesthetics and cozy elements, creating a welcoming environment for all our guests.</p>
+                <img src="img/Interior.jpg" alt="Interior Image 1" class="interior-image">
+                <p>Whether you choose a spot by the window for natural light or opt for a more intimate corner, every seat in our cafe is designed for comfort and enjoyment.</p>
+                <img src="img/" alt="Interior Image 2" class="interior-image">
+                <p>We take pride in creating a space where every detail, from the artwork on the walls to the arrangement of seating, contributes to the overall ambiance. It's a space that invites you to savor your favorite treats, have engaging conversations, and create lasting memories.</p>
+            </div>
+        </section>
+
+
+        </section>
+        <!-- Location Section -->
+<section class="location-section">
+    <div class="map-container">
+        <!-- Replace YOUR_GOOGLE_MAPS_API_KEY with your actual API key -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.9613388910536!2d67.03449351439474!3d24.88067108405768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f06bb204ce7%3A0xa5a69459e2993ab!2sYour%20Cafe%20Name!5e0!3m2!1sen!2suk!4v1647248494159!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="location-content">
+        <h2>Visit Us</h2>
+        <p>123 E-Street, Karachi, PK 75600</p>
+        <p>Phone: (+92) 456-7890</p>
+        <p>Email: info@mochimomentscafe.com</p>
+        <h2>Our Socials</h2>
+        <div class="social-icons">
+            <!-- Add your social media links here -->
+            <!-- Replace 'fab fa-facebook' with the class for your chosen social icon -->
+<a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Mochi Moments Cafe. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+
+
+            event.preventDefault();
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let message = document.getElementById('message').value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill out all fields before submitting.");
+            } else {
+                alert("Your message has been sent!");
+                // Add code here to submit the form to the server if the validation is successful
+            }
+        });
+    // JavaScript to toggle the menu on small screens
+    
+    </script>
+</body>
+
+</html>

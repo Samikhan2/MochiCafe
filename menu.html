@@ -1,0 +1,86 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi Moments Cafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a href="#" id="brand-logo">Mochi Moments Cafe</a>
+        </div>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-list"><a class="nav-links" href="./index">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="./aboutUs">Aboutus</a></li>
+                <li class="nav-list"><a class="nav-links" href="./menu">Menu</a></li>
+                <li class="nav-list"><a class="nav-links" href="./contact">Contact</a></li>
+                <li class="nav-list"><a class="nav-links" href="./Cart">Cart</a></li>
+                <li class="nav-list"><a class="nav-links" href="./services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Delightful Offerings</h1>
+        </div>
+    </div>
+        <section class="menu">
+            <!-- Sample menu items with "Add to Cart" buttons -->
+            <div class="item">
+                <img src="img/strawberry-mochi.jpg" alt="Strawberry Mochi">
+                <h3>Strawberry Mochi</h3>
+                <p>Our Strawberry Bliss Mochi combines traditional Japanese mochi with the sweet taste of juicy strawberries. Strawberry sweetness bursts from the chewy mochi exterior, making each bite a celebration of texture and flavor.</p>
+                <p style="font-weight: bolder; color: #000; margin-top:6px;">Price: $3.00</p>
+                <button onclick="addToCart('Strawberry Mochi', 3)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="img/JapneseCheeseCake.png" alt="Fluffy Cloud Japanese Cheesecake">
+                <h3>Fluffy Cloud Japanese Cheesecake</h3>
+                <p>Indulge in the light and airy goodness of our signature Japanese cheesecake. A melt-in-your-mouth experience!</p>
+                <p style="font-weight: bolder; color: #000; margin-top:6px;">Price: $4.00</p>
+                <button onclick="addToCart('Fluffy Cloud Japanese Cheesecake', 4)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="img/Dorayaki.png" alt="Dorayaki Delight">
+                <h3>Dorayaki Delight</h3>
+                <p>Soft, sweet pancakes filled with anko (sweet red bean paste). Our dorayaki is a classic Japanese treat that's perfect for any time of day.</p>
+                <p style="font-weight: bolder; color: #000; margin-top:6px;">Price: $2.50</p>
+                <button onclick="addToCart('Dorayaki Delight', 2.50)">Add to Cart</button>
+            </div>
+            
+            <div class="item">
+                <img src="img/cookies.jpg" alt="Cookies">
+                <h3>Matcha Bliss Cookies</h3>
+                <p>Indulge in the harmony of flavors with our Matcha Bliss Cookies. Each bite is a journey into the world of premium matcha, the finely ground green tea powder celebrated for its distinct color and nuanced taste. Our cookies, a perfect fusion of sweetness and the earthy notes of matcha, offer a delightful sensory experience.</p>
+                <p style="font-weight: bolder; color: #000; margin-top:6px;">Price: $2.00</p>
+                <button onclick="addToCart('Matcha Bliss Cookies', 2)">Add to Cart</button>
+            </div>
+    
+            <div class="item">
+                <img src="img/tahini-chocolate-bliss-balls4.jpg" alt="Sesame seed balls">
+                <h3>Sesame Bliss Bites</h3>
+                <p>Indulge in the delicate allure of our Sesame Bliss Bites, a delightful fusion of tradition and modern flavor. These Goma Dango, inspired by the classic Japanese treat, are bite-sized sesame seed balls dipped in a crunchy white coating, served with a delicate matcha sauce. This fusion of textures and flavors offers a harmonious explosion of joy in each bite.</p>
+                <p style="font-weight: bolder; color: #000; margin-top:6px;">Price: $3.0</p>
+                <button onclick="addToCart('Sesame Bliss Bites', 3)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Mochi Cafe. All rights reserved.</p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
+
+      
