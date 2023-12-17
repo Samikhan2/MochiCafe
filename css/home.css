@@ -98,7 +98,7 @@ li.nav-list {
 .hero-section {
     position: relative;
     height: 550px;
-    background: url('home-banner.jpg') center/cover no-repeat;
+    background: url('img/home-banner.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     display: flex;
